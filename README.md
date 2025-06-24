@@ -71,20 +71,14 @@ This project demonstrates how open weather data can be analyzed using Python for
 
 > **Data Source**: Weather data provided by [Open-Meteo](https://open-meteo.com/), a free weather API for open use.
 
-
-▶️ Run on Google Colab
-You can view and run this project directly in Google Colab without any setup:
-
-📌 Click the badge above to open the Jupyter Notebook in Google Colab.
+▶️ You can view and run this project directly in Google Colab without any setup
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/advaita-s/weather-trend-analysis-python/blob/main/weather-time-series-analysis.ipynb)
 
 
 ## ✅ Author
 Advaita_S_S
-
 BSc Computer Science (Data Analytics) Student
-
-This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets and work developed for academic and portfolio use.
+*This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets and work developed for academic and portfolio use.*
 
 
 
