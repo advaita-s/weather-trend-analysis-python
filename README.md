@@ -81,7 +81,9 @@ You can view and run this project directly in Google Colab without any setup:
 
 ## ✅ Author
 Advaita_S_S
+
 BSc Computer Science (Data Analytics) Student
+
 This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets and work developed for academic and portfolio use.
 
 
