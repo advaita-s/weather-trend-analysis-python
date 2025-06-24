@@ -77,7 +77,9 @@ This project demonstrates how open weather data can be analyzed using Python for
 
 ## ✅ Author
 Advaita_S_S
+
 BSc Computer Science (Data Analytics) Student
+
 *This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets and work developed for academic and portfolio use.*
 
 
