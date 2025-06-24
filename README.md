@@ -1,2 +1,76 @@
-# weather-trend-analysis-python
-A Python-based individual project for time series analysis and visualization of historical and real-time temperature data using Open-Meteo’s free weather API. It demonstrates skills in API integration, Pandas, Matplotlib, and multi-city weather comparison through clean, modular, and scalable code.
+# Weather Trend Analysis Using Python
+
+This individual project presents a clean and practical approach to analyze temperature trends over time using real-world weather data. Built entirely in Python, it utilizes Open-Meteo's free weather API to fetch historical hourly temperature data for a given city, and visualizes it using time series plots.
+
+## Project Overview
+
+The project is implemented in two stages:
+
+1. **Single City Analysis** – Fetches and plots both hourly and daily average temperature trends for a specified city over the past 7 days.
+2. **Multi-City Comparison** – Compares daily average temperature trends of multiple cities (e.g., Mumbai, Coimbatore, Chennai) on a single graph.
+
+All data fetching and processing are done using Python libraries like `requests`, `pandas`, and `matplotlib`.
+
+## Key Features
+
+📅 Historical weather data visualization (past 7 days)
+Visualize recent temperature patterns using real-world hourly data.
+
+🌍 Supports any city name (via geocoding)
+Dynamically fetch data for any city using Open-Meteo’s built-in location search.
+
+📈 Clear temperature trendlines
+Generate clean, easy-to-read plots showing hourly and daily trends.
+
+📊 Daily aggregation using time series resampling
+Resample hourly data into daily averages using Pandas time series capabilities.
+
+🏙️ Multi-city comparison with Matplotlib
+Compare daily average temperatures of multiple cities on a single graph.
+
+☁️ Fully executable in Google Colab or local Jupyter Notebook
+Run the entire project seamlessly in the cloud or your local machine.
+
+## 📊 Libraries Used
+
+- `pandas` – for data manipulation and time series resampling
+- `matplotlib` – for plotting temperature trends
+- `requests` – for API requests and geolocation
+- `datetime` – for date calculation
+
+## 🔎 How It Works
+
+1. City names are geocoded to get latitude and longitude using Open-Meteo's geolocation API.
+2. Historical hourly weather data is pulled from Open-Meteo’s archive endpoint.
+3. Data is processed and resampled to daily averages.
+4. Visualizations are created for both single-city and multi-city scenarios.
+
+## 📍 Use Case
+
+This project demonstrates how open weather data can be analyzed using Python for:
+
+- Academic or personal data science projects
+- Environmental research
+- Climate comparisons across regions
+- Learning time series data manipulation and visualization
+
+## ✅ Advantages of This Approach
+
+- No web scraping: clean, API-based data retrieval
+- No authentication required: Open-Meteo is free and open
+
+## 📁 Folder Structure
+
+
+## Data Source
+
+> **Data Source**: Weather data provided by [Open-Meteo](https://open-meteo.com/), a free weather API for open use.
+
+## Author
+
+This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets.
+
+
+
+
+
