@@ -71,6 +71,11 @@ This project demonstrates how open weather data can be analyzed using Python for
 
 > **Data Source**: Weather data provided by [Open-Meteo](https://open-meteo.com/), a free weather API for open use.
 
+▶️ Run on Google Colab
+You can view and run this project directly in Google Colab without any setup:
+
+📌 Click the badge above to open the Jupyter Notebook in Google Colab.
+
 ## ✅ Author
 Advaita_S_S
 BSc Computer Science (Data Analytics) Student
