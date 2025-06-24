@@ -31,6 +31,14 @@ Compare daily average temperatures of multiple cities on a single graph.
 ☁️ Fully executable in Google Colab or local Jupyter Notebook
 Run the entire project seamlessly in the cloud or your local machine.
 
+## Sample visuals
+
+![single_city_hourly_plot](https://github.com/user-attachments/assets/46bbc0c7-3453-4da0-87cb-795cfa1350a7)
+
+![single_city_daily_avg_plot](https://github.com/user-attachments/assets/cfdbb4e5-14ae-45b1-ad97-b2d4462119b3)
+
+![multi_city_comparison_plot](https://github.com/user-attachments/assets/6d446176-b2f5-46f4-b589-fa68899b56bc)
+
 ## 📊 Libraries Used
 
 - `pandas` – for data manipulation and time series resampling
@@ -38,14 +46,14 @@ Run the entire project seamlessly in the cloud or your local machine.
 - `requests` – for API requests and geolocation
 - `datetime` – for date calculation
 
-## 🔎 How It Works
+## How It Works
 
 1. City names are geocoded to get latitude and longitude using Open-Meteo's geolocation API.
 2. Historical hourly weather data is pulled from Open-Meteo’s archive endpoint.
 3. Data is processed and resampled to daily averages.
 4. Visualizations are created for both single-city and multi-city scenarios.
 
-## 📍 Use Case
+## Use Case
 
 This project demonstrates how open weather data can be analyzed using Python for:
 
@@ -54,21 +62,19 @@ This project demonstrates how open weather data can be analyzed using Python for
 - Climate comparisons across regions
 - Learning time series data manipulation and visualization
 
-## ✅ Advantages of This Approach
+## Advantages of This Approach
 
 - No web scraping: clean, API-based data retrieval
 - No authentication required: Open-Meteo is free and open
-
-## 📁 Folder Structure
-
 
 ## Data Source
 
 > **Data Source**: Weather data provided by [Open-Meteo](https://open-meteo.com/), a free weather API for open use.
 
-## Author
-
-This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets.
+## ✅ Author
+Advaita_S_S
+BSc Computer Science (Data Analytics) Student
+This project is developed as an individual effort focused on applying data analysis and time series concepts using real-world datasets and work developed for academic and portfolio use.
 
 
 
